@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Связаться со мной</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <!-- Декоративные блобы -->
+  <div class="decor-blob decor-blob--purple" style="width: 24rem; height: 24rem; top: 10rem; right: -8rem;"></div>
+  <div class="decor-blob decor-blob--burgundy" style="width: 18rem; height: 18rem; bottom: 2rem; left: -5rem;"></div>
+  <div class="decor-blob decor-blob--blue" style="width: 14rem; height: 14rem; top: -3rem; left: 30%;"></div>
+
+  <!-- ===== ШАПКА ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.svg" alt="Логотип" class="logo-img">
+        <span class="logo-text">Независимый эксперт</span>
+      </a>
+      <button class="burger" id="burger" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" class="nav-link">Главная</a>
+        <a href="spheres.html" class="nav-link">Мои компетенции</a>
+		<a href="bazar.html" class="nav-link">Базар</a>
+        <a href="reviews.html" class="nav-link">Сертификаты</a>
+        <a href="contacts.html" class="nav-link active">Связаться</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== ОСНОВНОЙ КОНТЕНТ ===== -->
+  <main>
+    <section class="contacts-page">
+      <h1>Свяжитесь со мной</h1>
+      <p>Хотите сотрудничать или просто поболтать? Заполните форму ниже! 💌</p>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label for="name">Ваше имя</label>
+          <input type="text" id="name" name="name" placeholder="Как тебя величать?" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Электронная почта</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Сообщение</label>
+          <textarea id="message" name="message" placeholder="Уточни что ты от меня хочешь и я постараюсь не забыть про тебя " required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Отправить🚀</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- ===== ПОДВАЛ ===== -->
+  <footer class="site-footer">
+    <p>Контент предназначен исключительно для развлечения. Не содержит намеренных оскорблений. Все персонажи и события вымышлены; любые совпадения с реальными людьми или ситуациями случайны. Сделано с 💜</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>е

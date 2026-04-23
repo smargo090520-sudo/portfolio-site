@@ -1,0 +1,48 @@
+body {
+	padding: 2rem;
+	font-family: -apple-system, BlinkMacSystemFont, "Arial", sans-serif;
+}
+
+h1 {
+	font-size: 16px;
+	margin-top: 0;
+}
+
+p {
+	color: rgb(107, 114, 128);
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.card {
+	max-width: 620px;
+	margin: 0 auto;
+	padding: 16px;
+	border: 1px solid lightgray;
+	border-radius: 16px;
+}
+
+.card p:last-child {
+	margin-bottom: 0;
+}
+/* ===== КНОПКА ПОБАЗАРИТЬ ===== */
+.btn-bazart {
+  background: linear-gradient(135deg, var(--purple-main), var(--burgundy));
+  color: white;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 1rem;
+  transition: all 0.3s ease;
+  font-family: var(--font-body);
+}
+
+.btn-bazart:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(106, 90, 205, 0.4);
+}
+

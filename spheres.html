@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мои компетенции</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <!-- Декоративные блобы -->
+  <div class="decor-blob decor-blob--purple" style="width: 25rem; height: 25rem; top: 5rem; left: -8rem;"></div>
+  <div class="decor-blob decor-blob--burgundy" style="width: 20rem; height: 20rem; bottom: 5rem; right: -5rem;"></div>
+
+  <!-- ===== ПОСЫПКА / КОНФЕТТИ ===== -->
+  <div class="sprinkles-bg">
+    <!-- Кружочки -->
+    <span class="sprinkle sprinkle--circle" style="width:1rem;height:1rem;background:#6A5ACD;top:8%;left:12%;"></span>
+    <span class="sprinkle sprinkle--circle" style="width:1.5rem;height:1.5rem;background:#800020;top:15%;left:78%;opacity:0.25;"></span>
+    <span class="sprinkle sprinkle--circle" style="width:0.8rem;height:0.8rem;background:#8A2BE2;top:30%;left:5%;opacity:0.35;"></span>
+    <span class="sprinkle sprinkle--circle" style="width:1.2rem;height:1.2rem;background:#A52A2A;top:45%;left:88%;opacity:0.2;"></span>
+    <span class="sprinkle sprinkle--circle" style="width:1rem;height:1rem;background:#4FC3F7;top:62%;left:15%;opacity:0.3;"></span>
+    <span class="sprinkle sprinkle--circle" style="width:0.7rem;height:0.7rem;background:#6A5ACD;top:78%;left:72%;opacity:0.25;"></span>
+    <span class="sprinkle sprinkle--circle" style="width:1.4rem;height:1.4rem;background:#800020;top:90%;left:40%;opacity:0.2;"></span>
+    <span class="sprinkle sprinkle--circle" style="width:0.9rem;height:0.9rem;background:#8A2BE2;top:20%;left:50%;opacity:0.28;"></span>
+    <span class="sprinkle sprinkle--circle" style="width:1.1rem;height:1.1rem;background:#C9B1FF;top:55%;left:35%;opacity:0.35;"></span>
+    <span class="sprinkle sprinkle--circle" style="width:0.6rem;height:0.6rem;background:#A52A2A;top:70%;left:60%;opacity:0.3;"></span>
+    <!-- Палочки -->
+    <span class="sprinkle sprinkle--line" style="width:2.5rem;background:#6A5ACD;top:12%;left:30%;transform:rotate(35deg);opacity:0.25;"></span>
+    <span class="sprinkle sprinkle--line" style="width:2rem;background:#800020;top:28%;left:92%;transform:rotate(-20deg);opacity:0.2;"></span>
+    <span class="sprinkle sprinkle--line" style="width:3rem;background:#8A2BE2;top:50%;left:8%;transform:rotate(60deg);opacity:0.22;"></span>
+    <span class="sprinkle sprinkle--line" style="width:1.8rem;background:#4FC3F7;top:68%;left:82%;transform:rotate(-45deg);opacity:0.3;"></span>
+    <span class="sprinkle sprinkle--line" style="width:2.2rem;background:#A52A2A;top:85%;left:55%;transform:rotate(15deg);opacity:0.2;"></span>
+    <!-- Квадратики / звёздочки -->
+    <span class="sprinkle sprinkle--star" style="width:0.8rem;height:0.8rem;background:#6A5ACD;top:5%;left:65%;opacity:0.3;"></span>
+    <span class="sprinkle sprinkle--star" style="width:0.6rem;height:0.6rem;background:#800020;top:38%;left:22%;opacity:0.25;"></span>
+    <span class="sprinkle sprinkle--star" style="width:1rem;height:1rem;background:#8A2BE2;top:72%;left:45%;opacity:0.2;"></span>
+    <span class="sprinkle sprinkle--star" style="width:0.7rem;height:0.7rem;background:#4FC3F7;top:92%;left:18%;opacity:0.28;"></span>
+    <span class="sprinkle sprinkle--star" style="width:0.9rem;height:0.9rem;background:#C9B1FF;top:42%;left:70%;opacity:0.3;"></span>
+  </div>
+
+  <!-- ===== ШАПКА ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.svg" alt="Логотип" class="logo-img">
+        <span class="logo-text">Независимый эксперт</span>
+      </a>
+      <button class="burger" id="burger" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" class="nav-link">Главная</a>
+        <a href="spheres.html" class="nav-link active">Мои компетенции</a>
+		<a href="bazar.html" class="nav-link">Базар</a>
+        <a href="reviews.html" class="nav-link">Сертификаты</a>
+        <a href="contacts.html" class="nav-link">Связаться</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== ОСНОВНОЙ КОНТЕНТ ===== -->
+  <main>
+    <section class="spheres-page">
+      <h1>в чем я эксперт</h1>
+
+      <ul class="sphere-list">
+        <!-- Сфера 1 -->
+        <li class="sphere-item">
+          <span class="sphere-num">1</span>
+          <span class="sphere-name">Инженер-промптовик высшей категории</span>
+          <a href="spheres/sphere-1.html" class="sphere-arrow">
+            Подробнее <img src="images/arrow-right.svg" alt="→">
+          </a>
+		  <button class="btn-bazart" data-post-id="1">🗣️ Побазарить</button>
+        </li>
+        <!-- Сфера 2 -->
+        <li class="sphere-item">
+          <span class="sphere-num">2</span>
+          <span class="sphere-name">Кино-сваха со стажем</span>
+          <a href="spheres/sphere-2.html" class="sphere-arrow">
+            Подробнее <img src="images/arrow-right.svg" alt="→">
+          </a>
+		  <button class="btn-bazart" data-post-id="2">🗣️ Побазарить</button>
+        </li>
+        <!-- Сфера 3 -->
+        <li class="sphere-item">
+          <span class="sphere-num">3</span>
+          <span class="sphere-name">Мастер дедлайн-спринта</span>
+          <a href="spheres/sphere-3.html" class="sphere-arrow">
+            Подробнее <img src="images/arrow-right.svg" alt="→">
+          </a>
+		  <button class="btn-bazart" data-post-id="3">🗣️ Побазарить</button>
+        </li>
+        <!-- Сфера 4 -->
+        <li class="sphere-item">
+          <span class="sphere-num">4</span>
+          <span class="sphere-name">Амбассадор азиатской культуры</span>
+          <a href="spheres/sphere-4.html" class="sphere-arrow">
+            Подробнее <img src="images/arrow-right.svg" alt="→">
+          </a>
+		  <button class="btn-bazart" data-post-id="4">🗣️ Побазарить</button>
+        </li>
+        <!-- Сфера 5 -->
+        <li class="sphere-item">
+          <span class="sphere-num">5</span>
+          <span class="sphere-name">Шеф-повар домашнего формата</span>
+          <a href="spheres/sphere-5.html" class="sphere-arrow">
+            Подробнее <img src="images/arrow-right.svg" alt="→">
+          </a>
+		  <button class="btn-bazart" data-post-id="5">🗣️ Побазарить</button>
+        </li>
+        <!-- Сфера 6 -->
+        <li class="sphere-item">
+          <span class="sphere-num">6</span>
+          <span class="sphere-name">Самопровозглашённый мастер ногтевого искусства</span>
+          <a href="spheres/sphere-6.html" class="sphere-arrow">
+            Подробнее <img src="images/arrow-right.svg" alt="→">
+          </a>
+		  <button class="btn-bazart" data-post-id="6">🗣️ Побазарить</button>
+        </li>
+        <!-- Сфера 7 -->
+        <li class="sphere-item">
+          <span class="sphere-num">7</span>
+          <span class="sphere-name">Бюрократический навигатор</span>
+          <a href="spheres/sphere-7.html" class="sphere-arrow">
+            Подробнее <img src="images/arrow-right.svg" alt="→">
+          </a>
+		  <button class="btn-bazart" data-post-id="7">🗣️ Побазарить</button>
+        </li>
+        <!-- Сфера 8 -->
+        <li class="sphere-item">
+          <span class="sphere-num">8</span>
+          <span class="sphere-name">Мастер спорта по пешим прогулкам</span>
+          <a href="spheres/sphere-8.html" class="sphere-arrow">
+            Подробнее <img src="images/arrow-right.svg" alt="→">
+          </a>
+		  <button class="btn-bazart" data-post-id="8">🗣️ Побазарить</button>
+        </li>
+        <!-- Сфера 9 -->
+        <li class="sphere-item">
+          <span class="sphere-num">9</span>
+          <span class="sphere-name">Художник широкого профиля и свободных материалов</span>
+          <a href="spheres/sphere-9.html" class="sphere-arrow">
+            Подробнее <img src="images/arrow-right.svg" alt="→">
+          </a>
+		  <button class="btn-bazart" data-post-id="9">🗣️ Побазарить</button>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- ===== ПОДВАЛ ===== -->
+  <footer class="site-footer">
+    <p>Контент предназначен исключительно для развлечения. Не содержит намеренных оскорблений. Все персонажи и события вымышлены; любые совпадения с реальными людьми или ситуациями случайны. Сделано с 💜</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+  // ... тут твой старый скрипт с лайками ...
+  
+  // Добавляем переход на базар
+  document.querySelectorAll('.btn-bazart').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const postId = btn.getAttribute('data-post-id');
+      window.location.href = `bazar.html?post_id=${postId}`;
+    });
+  });
+</script>
+</body>
+
+<script>
+  const API = 'http://localhost:5000/api';
+  const currentUser = { id: 3, name: 'user1' };
+  
+  async function loadLikes() {
+    const postElements = document.querySelectorAll('.sphere-item');
+    for (let i = 0; i < postElements.length; i++) {
+      const postId = i + 1;
+      const res = await fetch(`${API}/posts/${postId}/likes`);
+      const likes = await res.json();
+      const likeCount = likes.find(l => l.reaction === 'like')?.count || 0;
+      
+      let likeSpan = postElements[i].querySelector('.like-count');
+      if (!likeSpan) {
+        likeSpan = document.createElement('span');
+        likeSpan.className = 'like-count';
+        likeSpan.style.marginLeft = '15px';
+        likeSpan.style.cursor = 'pointer';
+        likeSpan.innerHTML = `❤️ ${likeCount}`;
+        likeSpan.onclick = () => addLike(postId, likeSpan);
+        postElements[i].appendChild(likeSpan);
+      } else {
+        likeSpan.innerHTML = `❤️ ${likeCount}`;
+      }
+    }
+  }
+  
+  async function addLike(postId, span) {
+    await fetch(`${API}/posts/${postId}/like`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ user_id: currentUser.id, reaction: 'like' })
+    });
+    loadLikes();
+  }
+  
+  async function seedData() {
+    await fetch(`${API}/seed`, { method: 'POST' });
+  }
+  
+  seedData();
+  setTimeout(loadLikes, 500);
+</script>
+
+</html>

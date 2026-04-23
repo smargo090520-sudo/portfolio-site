@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная — [дом]</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <!-- Декоративные блобы -->
+  <div class="decor-blob decor-blob--purple" style="width: 30rem; height: 30rem; top: -8rem; right: -8rem;"></div>
+  <div class="decor-blob decor-blob--burgundy" style="width: 22rem; height: 22rem; bottom: 10rem; left: -6rem;"></div>
+  <div class="decor-blob decor-blob--blue" style="width: 18rem; height: 18rem; bottom: -5rem; right: 20%;"></div>
+
+  <!-- ===== ШАПКА ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.svg" alt="Логотип" class="logo-img">
+        <span class="logo-text">Независимый эксперт</span>
+      </a>
+      <button class="burger" id="burger" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" class="nav-link active">Главная</a>
+        <a href="spheres.html" class="nav-link">Мои компетенции</a>
+		<a href="bazar.html" class="nav-link">Базар</a>
+        <a href="reviews.html" class="nav-link">Сертификаты</a>
+        <a href="contacts.html" class="nav-link">Связаться</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== ОСНОВНОЙ КОНТЕНТ ===== -->
+  <main>
+    <section class="hero">
+      <div class="hero-image">
+        <!-- Главное фото профиля -->
+        <img src="https://sun9-47.userapi.com/s/v1/ig2/T5Ur10D9SNIJni3xoyGMJabfT3f5AoCUlvnj99RElOdY8rvhZE5rZAfXnumOigNC4LA4hSWSR_Wm6PNHY3vRJ0mF.jpg?quality=95&as=32x57,48x85,72x128,108x192,160x284,240x427,360x640,480x853,540x960,640x1138,720x1280,1080x1920,1280x2276,1440x2560&from=bu&u=64LkbIS2rbn1llkxfmsomwIYOnjfCBihfqNB-3Ii5p0&cs=1440x0" alt="Моё фото" class="profile-pic">
+      </div>
+      <div class="hero-text">
+        <h1><span class="editable-text">Я Марграита! Приветсвую тебя </span></h1>
+        <p><span class="editable-text">Это мое портфолио что бы вы могли познакомиться со мной поближе. Я эксперт в некоторых областях. Может я смогу вам чем то помочь или найдется тема для разговора</span></p>
+        <div class="hero-buttons">
+          <a href="spheres.html" class="btn btn-primary">Мои компетенции ✨</a>
+          <a href="contacts.html" class="btn btn-outline">Написать мне 💜</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Декоративная волна внизу -->
+    <div class="wave-bg">
+      <svg viewBox="0 0 1440 180" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,80 C360,160 720,0 1080,80 C1260,120 1380,100 1440,80 L1440,180 L0,180 Z" fill="#F5F3FF"/>
+        <path d="M0,120 C360,40 720,160 1080,100 C1260,80 1380,110 1440,100 L1440,180 L0,180 Z" fill="#EDE9FE" opacity="0.5"/>
+      </svg>
+    </div>
+  </main>
+
+  <!-- ===== ПОДВАЛ ===== -->
+  <footer class="site-footer">
+    <p>Курсовая работа Шестаковой Маргариты Сергеевны, группа ИВТ-Б. Контент предназначен исключительно для развлечения. Не содержит намеренных оскорблений. Все персонажи и события вымышлены; любые совпадения с реальными людьми или ситуациями случайны. Сделано с 💜</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
